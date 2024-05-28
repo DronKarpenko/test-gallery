@@ -13,4 +13,12 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  app: {
+    baseURL: 'test-gallery',
+  },
+
+  nitro: {
+    preset: 'static',
+  },
 })
